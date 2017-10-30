@@ -1,9 +1,5 @@
 # LiteratureReviewTools
-Python tools used to extract publication information from the web and performing data analysis. 
-
-## Summary 
-
-Extract publication information from any of the following serach engines.
+Python tools used to extract publication information from any of the following serach engines.
 
 * Science Direct; limited to 200 results per query request. Need an API key to access the database. This can be found by registering at
 http://dev.elsevier.com/index.html
@@ -13,7 +9,7 @@ http://dev.elsevier.com/index.html
 * Google Scholar; no limit on number of results, but at some point, Google will block the IP address if calling too much. 
 URL is accessed with BeautifulSoup, and html tags are extracted relating to article content. 
 
-All results are saved in a csv file under the name of the query keywords. 
+All results are saved in a csv file under the name of the query keywords within a specified folder. 
 
 ## Getting Started
 
