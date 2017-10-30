@@ -28,11 +28,12 @@ Main script is in runAll.py
 
 Inputs are search terms, number of results desired and the folder where results are to be saved.
 
-"""
+'''
 search_terms = 'abdominal aortic aneurysm'
 numRes = 100;
 saveDir = 'testResults2
-"""
+'''
+
 Main source files are located in searchTools. 
 
 
